@@ -15,47 +15,47 @@ The goal was to move the Myntra database from a self-managed EC2 server to a ful
 
 1. Click on create database
    
-   ![wel](./img/db-1.png)
+   ![wel](./Pictures/db-1.png)
 2. Select database creation method and engine type
 
-   ![wel](./img/db-2.png)
-   ![wel](./img/db-3.png)
+   ![wel](./Pictures/db-2.png)
+   ![wel](./Pictures/db-3.png)
 3.Give name for your db instance and select security group
-   ![wel](./img/db-4.png) 
-   ![wel](./img/db-5.png) 
-   ![wel](./img/db-6.png)
+   ![wel](./Pictures/db-4.png) 
+   ![wel](./Pictures/db-5.png) 
+   ![wel](./Pictures/db-6.png)
 
 4. Go to Additional configuration and give name your database(Myntra) and click on create database
-   ![wel](./img/db-8.png)
-   ![wel](./img/db-7.png)
+   ![wel](./Pictures/db-8.png)
+   ![wel](./Pictures/db-7.png)
 
 ### Step 2: Create Database on EC2(Iaas)
 1. Launch and temporary EC2 instance
    
 2. Copy ssh and take access of your EC2 instance
  
-   ![wel](./img/ssh.png)
-   ![wel](./img/ssh%20access-ec2.png)
+   ![wel](./Pictures/ssh.png)
+   ![wel](./Pictures/ssh%20access-ec2.png)
 3. Install and start mariadb105-server
  
-   ![wel](./img/mariadb-install.png)
-   ![wel](./img/mariadb-start.png)
+   ![wel](./Pictures/mariadb-install.png)
+   ![wel](./Pictures/mariadb-start.png)
 4. Go to mysql
  
-   ![wel](./img/sudomysql.png)
+   ![wel](./Pictures/sudomysql.png)
 5. Create database myntra and create table and insert values into table
-   ![wel](./img/create-tb.png)
-   ![wel](./img/insert-val.png)
+   ![wel](./Pictures/create-tb.png)
+   ![wel](./Pictures/insert-val.png)
 
 ### Step 3: Extract data from EC2 server to convert into file
-   ![wel](./img/dump.png)
+   ![wel](./Pictures/dump.png)
 ### Step 4: Migrate data from EC2 to RDS
-![wel](./img/migrate-data.png)
+![wel](./Pictures/migrate-data.png)
 ### Step 5: Check the imported database from myntra database
 
 
-![wel](./img/db.png)
-![wel](./img/show-op.png)
+![wel](./Pictures/db.png)
+![wel](./Pictures/show-op.png)
 
 Conclusion:
 
